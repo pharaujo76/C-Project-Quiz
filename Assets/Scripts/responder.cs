@@ -37,7 +37,7 @@ public class responder : MonoBehaviour {
 		respostaC.text = alternativaC [idPergunta];
 		respostaD.text = alternativaD [idPergunta];
 
-		InfoResposta.text = "Respondendo " + (idPergunta + 1) + " de " + questoes.ToString () + " perguntas.";
+		InfoResposta.text = "Respondendo " + (idPergunta + 1) + " de " + questoes.ToString () + " perguntas e aguardando resultado.";
 	}
 	
 	public void resposta(string alternativa){

@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class comandosBasicos : MonoBehaviour {
+public class Comandos : MonoBehaviour {
 
-	public void carregaCena(string nomeCena){
+	public void carregarCena(string nomeCena){
 
 		Application.LoadLevel (nomeCena);
 	}

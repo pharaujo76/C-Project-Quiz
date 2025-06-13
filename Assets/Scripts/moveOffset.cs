@@ -3,7 +3,7 @@ using System.Collections;
 
 public class moveOffset : MonoBehaviour {
 
-	private Material materialAtual;
+	private Material Material01;
 	public 	float	 velocidade;
 	private	float 	 offset;
 

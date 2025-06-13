@@ -22,7 +22,7 @@ public class temaJogo : MonoBehaviour {
 	void Start () {
 		idTema = 0;
 		txtNomeTema.text = nomeTema [idTema];
-		txtInfoTema.text = "Você acertou X de X questões"; 
+		txtInfoTema.text = "Você acertou um totla de ("") questões"; 
 		infoTema.SetActive (false);
 		estrela1.SetActive (false);
 		estrela2.SetActive (false);

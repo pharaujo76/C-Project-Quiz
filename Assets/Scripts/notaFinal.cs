@@ -28,7 +28,7 @@ public class notaFinal : MonoBehaviour {
 		acertos = PlayerPrefs.GetInt ("acertosTemp" + idTema.ToString ());
 
 		txtNota.text = notaF.ToString ();
-		txtInfoTema.text = "Voce acertou " + acertos.ToString() + " de 10 perguntas";
+		txtInfoTema.text = "Voce acertou " + acertos.ToString() + " de 10 perguntas.";
 
 		if (notaF == 10) {
 		

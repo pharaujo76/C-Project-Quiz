@@ -19,7 +19,7 @@ public class temaInfo : MonoBehaviour {
 		estrela3.SetActive (false);
 
 
-		int notaFinal = PlayerPrefs.GetInt ("notaFinal" + idTema.ToString ());
+		int notaFinal = PlayerPrefs.GetInt ("notaFin" + idTema.ToString ());
 
 		
 
